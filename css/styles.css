@@ -1,0 +1,87 @@
+/*======FONTS======*/
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+/*========UNIVERSALS=========*/
+p {
+  font-size: 16px;
+}
+
+/*========HEADER========*/
+#header-logo {
+  width: 90px;
+}
+
+#logo-style {
+  font-family: 'Satisfy', cursive;
+  color: #ff827b;
+  margin-top: 20px;
+}
+
+.nav-tabs {
+  border: none;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+  border: none;
+}
+
+.flex-wrapper {
+  display: flex;
+  align-items: flex-end;
+}
+/*=======JUMBOTRON==========*/
+.jumbotron {
+  height: 450px;
+  color: #fff;
+  background-image: url('../img/hero.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbotron h2 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*=====THUMBNAILS=====*/
+.thumb-background {
+  background-color: #eee;
+  border-radius: 5%;
+  margin-left: 5px; /* HACK SOLUTION*/
+}
+
+.thumb-background img {
+  margin: 10px 0px;
+}
+
+.caption button {
+  margin-bottom: 10px;
+}
+
+/*======FOOTER======*/
+footer {
+  background-color: #231f20;
+  padding-top: 20px;
+}
+
+footer a, footer {
+  text-decoration: none;
+  color: #bfc0c1;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.right-border {
+  border-right: 1px solid #333;
+}
+
+#footer-logo {
+  height: 110px;
+}
+
+footer .text-center p {
+  color: #333;
+}
