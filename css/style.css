@@ -29,6 +29,11 @@
 }
 
 /*--- PRODUCTS AND SERVICES SECTION ---*/
+.featured {
+  margin-left: 10px;
+}
+
+
 .btn-primary {
   height: ;
 }
@@ -39,4 +44,30 @@
 
 .thumbnail img {
   padding: 9px;
+}
+
+.services {
+  margin-left: 90px;
+}
+
+/*-------- FOOTER SECTION --------*/
+footer {
+  height: 100px;
+  background-color: #231F20;
+}
+
+footer img {
+  width: 120px;
+}
+
+.section-border {
+  border-right: 1px solid #323232;
+}
+
+.medium-grey {
+  color: #aaaaab;
+}
+
+address {
+  margin-top: 20px;
 }
