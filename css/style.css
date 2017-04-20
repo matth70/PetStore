@@ -52,8 +52,9 @@
 
 /*-------- FOOTER SECTION --------*/
 footer {
-  height: 100px;
+  height: 150px;
   background-color: #231F20;
+  margin-top: 50px;
 }
 
 footer img {
@@ -70,4 +71,33 @@ footer img {
 
 address {
   margin-top: 20px;
+}
+
+i {
+  color: white;
+  height: 20px;
+}
+
+.footerIcons {
+  margin-top: 28px;
+}
+
+footer p {
+  margin-top: -8px;
+  color: #aaaaab;
+}
+
+.copyright {
+  margin-top: 10px;
+  text-align: center;
+  color: #aaaaab;
+}
+
+a.social {
+  text-decoration:none;
+  color: #aaaaab;
+}
+
+a:hover {
+  text-decoration: none;
 }
