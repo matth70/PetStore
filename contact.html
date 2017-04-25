@@ -6,135 +6,136 @@
 	<title>Pet Store</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/contact.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
 	<header class="container">
-		<!-- HEADER ROW BEGINS -->
 		<div class="row">
-			<div class="flex-wrapper"><!-- FLEX WRAPPER BEGINS -->
-				<div class="col-xs-8 col-sm-4 col-md-6">
-					<a href="index.html">
-						<img src="img/petstore_logo.png" alt="Pet Store Logo" id="header-logo" class="img-responsive pull-left">
-						<h1 id="logo-style" class="pull-left">Pet Store</h1>
-					</a>
-				</div>
-				<!-- NAVIGATION BEGINS -->
-				<nav class="col-xs-12 col-sm-8 col-md-6">
-					<ul class="nav nav-tabs pull-right">
-					  <li role="presentation" class="active"><a href="index.html">Home</a></li>
-					  <li role="presentation"><a href="#">Products</a></li>
-					  <li role="presentation"><a href="#">Contact Us</a></li>
-					</ul>
-				</nav>
-				<!-- NAVIGATION ENDS -->
-			</div> <!--FLEX WRAPPER ENDS -->
+			<div>
+				<img src="img/petstore_logo.png" alt="logo" class="img-responsive logo pull-left">
+				<h1 class="satisfy-text">Pet Store</h1>
+			</div>
+			<div class="pull-right">
+				<ul class="nav nav-pills">
+				  <li role="presentation"><a href="index.html">Home</a></li>
+				  <li role="presentation"><a href="#">Products</a></li>
+				  <li role="presentation" class="active"><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</div>
 		</div>
-	<!-- HEADER ROW ENDS HERE -->
-
 	</header>
 
-	<div class="container content">
-		<div class="row">
-			<div class="col-sm-12 col-md-6">
-				<div class="row">
-					<div class="col-xs-6 col-sm-4">
-						<img class="img-responsive" src="img/doctor1.jpg" alt="">
-					</div>
-					<div class="col-xs-6 col-sm-8">
-						<h3>Dr. Joe Smith</h3>
-					</div>
-					<div class="col-xs-12 col-sm-8">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas animi provident culpa cupiditate sunt aliquam impedit hic nihil officiis necessitatibus exercitationem tempora ab, esse voluptatem ipsam fuga, ratione voluptate minus.</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-xs-6 col-sm-4">
-						<img class="img-responsive" src="img/doctor2.jpg" alt="">
-					</div>
-					<div class="col-xs-6 col-sm-8">
-						<h3>Dr. Jane Smith</h3>
-					</div>
-					<div class="col-xs-12 col-sm-8">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas animi provident culpa cupiditate sunt aliquam impedit hic nihil officiis necessitatibus exercitationem tempora ab, esse voluptatem ipsam fuga, ratione voluptate minus.</p>
-					</div>
-				</div>
-				<div class="row">
-					<table class="table table-striped">
-						<thead>
-							<tr>
-								<th>Department</th>
-								<th>Phone Number</th>
-								<th>Extension</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Register</td>
-								<td>834-987-0989</td>
-								<td>x890</td>
-							</tr>
-							<tr>
-								<td>Dog Toys</td>
-								<td>834-987-0989</td>
-								<td>x890</td>
-							</tr>
-							<tr>
-								<td>Cat Stuff</td>
-								<td>834-987-0989</td>
-								<td>x890</td>
-							</tr>
-							<tr>
-								<td>Parrot Stuff</td>
-								<td>834-987-0989</td>
-								<td>x890</td>
-							</tr>
-							<tr>
-								<td>Vet</td>
-								<td>834-987-0989</td>
-								<td>x890</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-			</div>
-			<div class="col-sm-12 col-sm-5 col-sm-offset-1">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12788.730381427493!2d-119.795328!3d36.742188!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xab092ce50c284a0a!2sBitwise+Industries!5e0!3m2!1sen!2sus!4v1432769963669"  height="350" width="100%" style="border:0"></iframe>
+<!--------- JUMBOTRON STARTS HERE --------
+<div class="container-fluid" id="jumbotron-background">
+	<p class="text-center text-uppercase">the products they love. prices that you like.</p>
+</div> -->
+<!---------- JUMBOTRON ENDS HERE ----------->
 
+<!----	CONTACT INFO STARTS HERE ---->
+<div class="container contact">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="row">
+				<div class="col-md-4">
+					<img src="img/doctor1.jpg" alt="Dr. Joe Smith" class="img-responsive doctor">
+				</div>
+				<div class="col-md-8">
+					<h3>Dr. Joe Smith</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, maiores, eius. Facere enim sit aspernatur quis a reprehenderit possimus laboriosam autem, voluptatem sint deserunt vero eum suscipit. Dolores, voluptatum, vero.</p>
+				</div>
 			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<img src="img/doctor2.jpg" alt="Dr. Jane Smith" class="img-responsive doctor">
+				</div>
+				<div class="col-md-8">
+					<h3>Dr. Jane Smith</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, maiores, eius. Facere enim sit aspernatur quis a reprehenderit possimus laboriosam autem, voluptatem sint deserunt vero eum suscipit. Dolores, voluptatum, vero.</p>
+				</div>
+			</div>
+		</div>
+
+			<div class="col-md-5 col-md-offset-1">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12790.436564696116!2d-119.7858289!3d36.7319473!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb32dda71cf0730a0!2sBitwise+South+Stadium!5e0!3m2!1sen!2sus!4v1493086036850" width="450" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+		</div>
+<!----------------	CONTACT INFO ENDS HERE ---------------->
+
+<!-- PHONE DIRECTORY BEGINS -->
+	<div class="row">
+		<div class="col-md-6">
+			<table class="table table-striped">
+				<thead>
+					<td>Department</td>
+					<td>Phone Number</td>
+					<td>Extension</td>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Register</td>
+						<td>834-987-0989</td>
+						<td>x890</td>
+					</tr>
+					<tr>
+						<td>Dog Toys</td>
+						<td>834-987-0989</td>
+						<td>x890</td>
+					</tr>
+					<tr>
+						<td>Cat Stuff</td>
+						<td>834-987-0989</td>
+						<td>x890</td>
+					</tr>
+					<tr>
+						<td>Parrot Stuff</td>
+						<td>834-987-0989</td>
+						<td>x890</td>
+					</tr>
+					<tr>
+						<td>Vet</td>
+						<td>834-987-0989</td>
+						<td>x890</td>
+					</tr>
+				</tbody>
+			</table>
 		</div>
 	</div>
+</div>
+<!------------------ PHONE DIRECTORY ENDS ------------------->
 
-  <footer class="container-fluid">
-		<div class="container">
-			<div class="row"> <!--FOOTER CONTENT SECTION BEGINS -->
-				<div class="col-sm-3 right-border"><!--FOOTER LOGO BEGINS-->
-					<img src="img/petstore_logo.png" alt="Pet Store Logo" class="img-responsive" id="footer-logo">
-				</div><!--FOOTER LOGO ENDS-->
-				<div class="col-sm-3 right-border"><!--FOOTER ADDRESS BEGINS-->
-					<address>
-						<a href="#">
-							Pet Store<br />
-							Fresno, CA <br />
-						</a>
-						<a href="mailto:info@petstore.com">info@petstore.com</a>
-					</address>
-				</div><!--FOOTER ADDRESS ENDS-->
-				<div class="col-sm-3"><!--FOOTER SOCIAL MEDIA BEGINS-->
-					<p><i class="fa fa-twitter" aria-hidden="true"></i>  Twitter</p>
-					<p><i class="fa fa-facebook" aria-hidden="true"></i>  Facebook</p>
-					<p><i class="fa fa-linkedin" aria-hidden="true"></i>  Linked In</p>
-				</div><!--FOOTER SOCIAL MEDIA ENDS-->
-			</div> <!--FOOTER CONTENT SECTION Ends -->
-			<div class="row"><!--COPYRIGHT SECTION BEGINS -->
-				<div class="col-xs-12 text-center">
-					<p>&copy; Pet Store Inc, All Rights Reserved</p>
+<!--------- FOOTER STARTS HERE -------->
+
+<footer class="container-fluid">
+		<div class="row">
+			<div class="container">
+				<div class="row medium-grey">
+					<div class="col-md-3 section-border">
+						<img src="img/petstore_logo.png" alt="Logo">
+					</div>
+					<div class="col-md-3 section-border">
+						<address>
+							Pet Store <br>
+							Fresno, CA <br>
+							info@petstore.com
+						</address>
+					</div>
+					<div class="col-md-3 footerIcons">
+<p><a href="https://www.facebook.com" target="_target" class="social"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></p>
+<p><a href="https://www.twitter.com" target="_target" class="social"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></p>
+<p><a href="https://www.linkedin.com" target="_target" class="social"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a></p>
+					<div class="col-md-3">
+					</div>
 				</div>
-			</div> <!--COPYRIGHT SECTIONS ENDS-->
+			</div>
+
 		</div>
-	</footer>
-	<!-- scripts -->
+		<div class="row">
+<p class="copyright">&copyPet Store, Inc. All rights reserved.</p>
+		</div>
+</footer>
+<!--------------- FOOTER ENDS HERE --------------->
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 </body>
