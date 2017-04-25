@@ -1,31 +1,73 @@
-.one {
-  background-color: red;
-  /*flex-grow: 3;*/
+/*------UNIVERSALS------*/
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+/*--------HEADER--------*/
+.logo {
+  width: 120px;
 }
 
-.two {
-  background-color: green;
-  /*order: -1;*/
+.satisfy-text {
+  font-family: 'Kaushan Script', cursive;
+  color: #f47f5f;
 }
 
-.three {
-  align-self: flex-start;
-  background-color: blue;
+/*---JUMBOTRON SECTION---*/
+#jumbotron-background {
+  background-image: url('../img/hero.jpg');
+  height: 400px;
+  background-size: cover;
+  background-position: center;
 }
 
-.container>div {
-  height: 200px;
-  width: 200px;
-  border: 1px solid #000;
+#jumbotron-background p {
+  color: #FFFFFF;
+  font-size: 2em;
+  margin-top: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }
 
-.container {
-  height: 800px;
-  background-color: orange;
-  display: flex;
-  /*align-items: center;*/
-  justify-content: space-between;
-  align-content: stretch;
-  flex-direction: column;
-  flex-wrap: no-wrap;
+/*--- PRODUCTS AND SERVICES SECTION ---*/
+.featured {
+  margin-left: 10px;
+}
+
+
+.btn-primary {
+  height: ;
+}
+
+.thumbnail {
+  background-color: #EDF1F4;
+}
+
+.thumbnail img {
+  padding: 9px;
+}
+
+.services {
+  margin-left: 90px;
+}
+
+/*-------- FOOTER SECTION --------*/
+footer {
+  height: 100px;
+  background-color: #231F20;
+}
+
+footer img {
+  width: 120px;
+}
+
+.section-border {
+  border-right: 1px solid #323232;
+}
+
+.medium-grey {
+  color: #aaaaab;
+}
+
+address {
+  margin-top: 20px;
 }
