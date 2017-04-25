@@ -1,3 +1,4 @@
+/*DOCTORS AND MAP BEGINS HERE*/
 .container, .contact {
   margin-top: 20px;
 }
@@ -9,7 +10,10 @@
 .joe {
   margin-left: 90px;
 }
-
-iframe {
-  margin-left: 80px;
+/*DOCTORS AND MAP ENDS HERE*/
+/*--------------------------------------------------------------*/
+/*PHONE DIRECTORY BEGINS HERE*/
+thead {
+  font-weight: bold;
 }
+/*PHONE DIRECTORY ENDS HERE*/
