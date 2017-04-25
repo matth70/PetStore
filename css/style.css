@@ -52,14 +52,8 @@
 
 /*-------- FOOTER SECTION --------*/
 footer {
-<<<<<<< HEAD
-  height: 150px;
-  background-color: #231F20;
-  margin-top: 50px;
-=======
   height: 100px;
   background-color: #231F20;
->>>>>>> c51705ed8975940c321156a680dfec7c1a1cc5f1
 }
 
 footer img {
@@ -77,7 +71,6 @@ footer img {
 address {
   margin-top: 20px;
 }
-<<<<<<< HEAD
 
 i {
   color: white;
