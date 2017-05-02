@@ -28,7 +28,7 @@
   font-weight: 300;
 }
 
-/*--- PRODUCTS AND SERVICES SECTION ---*/
+/*-- PRODUCTS AND SERVICES SECTION --*/
 .featured {
   margin-left: 10px;
 }
@@ -50,9 +50,15 @@
   margin-left: 90px;
 }
 
-/*-------- FOOTER SECTION --------*/
+/* FOOTER SECTION */
 footer {
+<<<<<<< HEAD
   background-color: #231F20;
+=======
+  height: 150px;
+  background-color: #231F20;
+  margin-top: 50px;
+>>>>>>> fixed footer error
 }
 
 footer img {
