@@ -53,12 +53,18 @@
 /* FOOTER SECTION */
 footer {
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #231F20;
 =======
   height: 150px;
   background-color: #231F20;
   margin-top: 50px;
 >>>>>>> fixed footer error
+=======
+  height: 150px;
+  background-color: #231F20;
+  margin-top: 50px;
+>>>>>>> 3db7b2a2a4096350671050f38a44abc793c7660b
 }
 
 footer img {
